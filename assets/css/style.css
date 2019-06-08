@@ -1,0 +1,3244 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800'); */
+/* @import url('https://fonts.googleapis.com/css?family=Nunito'); */
+
+body {
+    background-color: #F4F4F4;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* My Additional  */
+div#fund_request_bank_info {
+    display: none;
+}
+
+a.see-more-campaigns {
+    color: #8DB859;
+    background: white;
+    border: 1px solid #8DB859;
+    border-radius: 4px;
+    padding: 9px 20px;
+}
+
+.logged-in-notice-modal {
+    text-align: center;
+}
+
+button#post-message-popup {
+    font-size: 14px;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+footer .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.navbar .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+button:focus {
+    border: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+a:focus {
+    border: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+.donate-now {
+    background: #8db859;
+    border: none;
+    border-radius: 0px;
+}
+
+.scholarx-fundraising-image {
+    /* text-align: center; */
+}
+
+.img-responsive.donation-profile-image {
+    max-width: 300px;
+    max-height: 400px;
+    object-fit: scale-down;
+}
+
+.village-fund-blank.text-center {
+    background: #fff;
+    padding: 100px 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+img.img-responsive.img-rounded.profile-image {
+    max-width: 35px;
+    min-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    border-radius: 100%;
+    margin-right: 6px;
+    object-fit: cover;
+    object-position: center;
+}
+
+img#profile_image_preview {
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    /* margin-bottom: 20px; */
+    object-fit: cover;
+}
+
+div#image-upload-error {
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: none;
+}
+
+div#document-upload-error {
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: none;
+}
+
+img#document_image_preview {
+    /* width: 150px; */
+    max-width: 220px;
+    min-width: 220px;
+    min-height: 160px;
+    max-height: 160px;
+    object-fit: cover;
+}
+
+.campaignperson {
+    max-width: 246px;
+    min-width: 246px;
+    min-height: 165px;
+    max-height: 165px;
+    object-fit: fill;
+    object-position: top;
+}
+
+.panel-default.campaign-panel-default {
+    color: #0c0c0c;
+    border-color: #c7c7c7 !important;
+    box-shadow: none !important;
+}
+
+a#change_profile_image {
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-bottom: 26px !important; */
+}
+
+a#change_document {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#image_preview {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#document_preview {
+    display: none;
+    /* margin-bottom: 20px; */
+}
+
+label#profile_image_label {
+    color: #8DB859;
+    font-size: 11px;
+}
+
+.upload-pics:hover,
+#profile_image_label:hover {
+    cursor: pointer;
+}
+
+div#carouselExampleFade {
+    margin-bottom: 70px;
+}
+
+div#fund_request_review {
+    display: none;
+}
+
+#additional-info,
+#school-basics-info,
+#school-documents-info,
+#review-info {
+    display: none;
+}
+
+#footer1,
+#footer2,
+#footer3,
+#footer4,
+#footer5,
+#footer6,
+#student-display,
+#sponsor-display {
+    font-size: 13px !important;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.footer-links a {
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: #99bf6a;
+}
+
+.checkbox-option {
+    margin-left: 0px !important;
+}
+
+.password-match {
+    margin: 0px;
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    display: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+textarea {
+    resize: none;
+}
+
+.join-us-footer-text {
+    font-size: 13px;
+    display: none;
+}
+
+.sweet-alert h2 {
+    font-size: 15px !important;
+    margin: 30px 5px 20px 5px;
+    text-transform: uppercase;
+}
+
+.sec-submit-button {
+    color: #fff;
+    background: #8DB859;
+    border-radius: 0;
+    padding: 8.7px 18px;
+    margin-bottom: 4px;
+    border-color: #8DB859;
+}
+
+
+.panel-default {
+    border-color: #ddd;
+    box-shadow: 1px 1px 1px grey;
+}
+
+
+/* VILLAGE  */
+.row.village-content {
+    margin-top: 160px;
+}
+
+.checkbox-option.village-checkbox-option {
+    margin-left: 0px;
+}
+
+.village-checkbox-option p {
+    margin-left: 55px;
+    margin-top: -17px;
+}
+
+/* VILLAGE ENDS */
+
+/* FOOTER SECTION */
+.row.footer-section {
+    background: #0C5061;
+    color: white;
+    /* height:20px; */
+    margin-top: 70px;
+    padding-top: 70px;
+}
+
+.we-help {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.our-team {
+    font-size: 18px;
+}
+
+.get-help {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8DB859;
+}
+
+.container.sub-footer {
+    margin-top: 80px;
+}
+
+.get-notified {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #DCDFE4;
+}
+
+.email-form {
+    border-radius: 32px !important;
+    width: 280px !important;
+}
+
+.btn-subscribe {
+    background: #8DB859 !important;
+    border-radius: 3px;
+    color: #FFFFFF;
+    width: 130px;
+}
+
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+ul.list-content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.footer-year {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .footer-section p { */
+/* font-size: 18px; */
+/* margin-left: 40px; */
+/* display: flex; */
+/* justify-content: flex-end; */
+/* } */
+
+/* PROGRESS BAR */
+.navbar {
+    background: rgba(244, 244, 244, 0.8) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.welcome-text {
+    margin-left: 18px;
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.first-campaign-text {
+    float: left !important;
+}
+
+.second-campaign-text {
+    float: right !important;
+    height: 50px;
+    width: 50px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #E5E5E5;
+    /* padding: 3px; */
+    border-radius: 22px;
+    /* box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2); */
+}
+
+.sub-div {
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px #EDEDEE;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.progress-bar-fill {
+    display: block;
+    height: 11px;
+    background: #E7C40C;
+    border-radius: 18px;
+    transition: width 500ms ease-in-out;
+}
+
+.fund-progress-bar {
+    width: 100%;
+    background-color: #E5E5E5;
+    /* padding: 3px; */
+    border-radius: 22px;
+    /* box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2); */
+}
+
+.fund-progress-bar-fill {
+    display: block;
+    height: 9px;
+    background-color: #8db859;
+    border-radius: 18px;
+    /* transition: width 500ms ease-in-out; */
+}
+
+
+.container.dashboard {
+    margin-top: 100px;
+}
+
+.first_dashboard {
+    display: block;
+    background-color: #FAFAFA;
+    padding: 20px;
+    /* width: 310px; */
+    height: 170px;
+    border-radius: 3px;
+}
+
+.second_dashboard {
+    display: block;
+    /* width: 310px; */
+    height: 170px;
+    /* margin: auto!important; */
+}
+
+.fund-raising {
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.sub-fund-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.fund-raised {
+    line-height: 40px;
+    color: #333333;
+}
+
+.div-campaign-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.campaign-button {
+    background-color: #ffffff;
+    border: 1px solid #8db859;
+    color: #8db859;
+}
+
+.campaign-button:hover {
+    background-color: #8db859;
+    /* border: 1px solid; */
+    color: #ffffff;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.recent-fund {
+    margin-left: 18px;
+    color: #38435B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.active-campaign {
+    text-align: center;
+    color: #A9ACAF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.campaign-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 18px;
+    color: #333333;
+}
+
+.campaign-line {
+    width: 561px;
+    margin-top: -27px;
+    height: 13px;
+}
+
+.dashboard {
+    margin-bottom: 50px;
+}
+
+
+/* SCHOLARX VILLAGE */
+.scholarxvillage-jumbotron {
+    background-image: url(../img/scholarxvillage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.scholarxvillage-jumbotron h2 {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.scholarxvillage-jumbotron div {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.scholarxvillage-jumbotron h3 {
+    font-size: 42px;
+}
+
+@media (max-width: 600px) {
+    .scholarxvillage-jumbotron h3 {
+        font-size: 32px;
+    }
+}
+
+/* NEW STYLES */
+.modal-content {
+    color: black;
+}
+
+.modal-heading-sm {
+    font-size: 14px;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+.modal-content form {
+    padding: 0px 35px;
+}
+
+.modal-content input {
+    border: 1px solid #9a8c8c;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.modal-content textarea {
+    border-radius: 0px;
+    border: 1px solid #9a8c8c;
+    margin-bottom: 10px;
+}
+
+.get-help-send {
+    width: 100%;
+    height: 40px;
+    background: #99bf6a;
+    border: 1px solid #99bf6a;
+    border-radius: 0px;
+}
+
+@media (max-width: 344px) {
+    span.next-button {
+        margin-left: 100px !important;
+    }
+
+    .btn-success {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+        margin-left: 100px;
+        height: 43px;
+        border-radius: 0px;
+    }
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    height: 43px;
+    border-radius: 0px;
+}
+
+
+@media (max-width: 768px) {
+
+    .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    footer .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .navbar .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .village-funding-img {
+        margin-left: 0px !important;
+    }
+
+    .skillsfund-img {
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width: 601px) {
+    .village-funding-img {
+        margin-left: 200px !important;
+    }
+
+    .skillsfund-img {
+        margin-left: 235px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    .village-funding-img {
+        margin-left: 115px !important;
+    }
+
+    .skillsfund-img {
+        margin-left: 155px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .village-funding-img {
+        margin-left: 70px !important;
+    }
+
+    .skillsfund-img {
+        margin-left: 110px !important;
+    }
+}
+
+ul.no-list.signup-ul {
+    margin-left: 35px;
+}
+
+
+/* SCHOLARX VILLAGE ENDS */
+
+/* SCHOLARX STUDENT CAMPAIGN */
+.row.fundraising-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.fundraising-title h2 {
+    font-size: 32px;
+}
+
+.scholarx-fundraising-image img {
+    width: 100%;
+}
+
+h3.scholarx-campaign-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p.scholarx-campaign-address,
+p.scholarx-campaign-age,
+p.scholarx-campaign-class {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+h4.scholarx-campaign-amount-raised {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+h5.scholarx-campaign-percentage-raised {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+button.btn.btn-campaign-green {
+    background: #8DB859;
+    border-radius: 0px;
+    color: white;
+}
+
+span.input-group-text.scholarx-campaign-naira,
+input.form-control.scholarx-campaign-input {
+    background: white;
+    border-radius: 0px;
+    border: 1px solid #dbd5d5;
+}
+
+#scholarx-campaign-name-label {
+    font-size: 23px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.scholarx-campaign-modal-image img {
+    width: 180px;
+}
+
+.donating-section {
+    /* border: 1px solid #e5dbdb; */
+    padding: 0px 15px;
+}
+
+.donating-section h5 {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.total {
+    margin-top: 15px;
+    border-top: 1px solid #e9e3e3;
+    padding: 5px 20px;
+    /* margin-left: -15px; */
+    margin: 15px -15px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pay-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #a59f9f;
+    padding-bottom: 5px;
+}
+
+.pay-section a {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+span.pay-card {
+    margin-right: 10px;
+}
+
+.pay-section-active-style a {
+    color: #8DB859;
+    border-bottom: 4px solid #8DB859;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.scholarx-fundraising-form label {
+    font-size: 14px;
+}
+
+.scholarx-fundraising-form label span {
+    font-size: 12px;
+}
+
+.scholarx-fundraising-form input {
+    border-radius: 0px;
+}
+
+.scholarx-fundraising-form button {
+    width: 100%;
+    padding: 7px 0px;
+    margin-top: 10px;
+    border: 1px solid #8DB859;
+    color: white;
+    background: #8DB859;
+}
+
+.row.scholarx-campaign-details {
+    margin-top: 50px;
+}
+
+.scholarx-campaign-details h3 {
+    font-size: 24px;
+}
+
+.scholarx-campaign-details p {
+    font-size: 16px;
+}
+
+.student-information td {
+    font-size: 16px;
+}
+
+.student-motivation h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p.answer {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.donation-list-table tbody tr td:nth-child(2) {
+    color: #4A90E2;
+    font-size: 16px;
+    /* margin-left: auto; */
+    float: right;
+}
+
+.donation-list-table th {
+    font-size: 24px;
+}
+
+.donation-list-table td p {
+    font-size: 14px;
+}
+
+.donation-list-table td {
+    font-size: 16px;
+}
+
+.row.post-message-section {
+    margin-top: 15px;
+    padding-bottom: 45px;
+}
+
+.show-support h4 {
+    font-size: 24px;
+}
+
+.show-support button,
+#pop-up-message button {
+    background: white;
+    padding: 9px;
+    border: 2px solid #99bf6a;
+    color: #99bf6a;
+    border-radius: 5px;
+}
+
+#pop-up-message input,
+#pop-up-message textarea {
+    border-radius: 0px;
+}
+
+#pop-up-message label {
+    font-size: 16px;
+    color: #99bf6a;
+    font-weight: 500;
+}
+
+#pop-up-message {
+    margin: 20px 0px;
+}
+
+.all-posted-messages img {
+    float: left;
+    margin-right: 20px;
+}
+
+.messages-posted p {
+    font-size: 16px;
+    margin-left: 75px;
+}
+
+.all-posted-messages h5 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+span.time-posted {
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+/* SCHOLARX STUDENT CAMPAIGN ENDS */
+
+
+/* NEW STYLES */
+.footer-links p {
+    margin-left: 0px !important;
+}
+
+@media (max-width:357px) {
+    .navbar-light .navbar-toggler {
+        margin-left: -30px;
+    }
+
+    img.appstore-button {
+        margin-left: 50px;
+        margin-top: 10px;
+        width: 156px;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 23%;
+    bottom: 66px;
+    left: 13%;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-caption div {
+    margin-top: 110px;
+}
+
+div#village_sponsor_content {
+    padding-top: 200px;
+}
+
+div#village_individual,
+footer#village_footer_individual,
+div#student_joinus,
+footer#student_joinus_footer {
+    float: right;
+}
+
+div#village_organization,
+footer#village_footer_organization,
+div#sponsor_joinus,
+footer#sponsor_joinus_footer {
+    margin-left: 0px;
+}
+
+div#campaign-panel {
+    padding: 0px;
+}
+
+span.skillsfund-new {
+    color: red !important;
+}
+
+@media (max-width: 376px) {
+    span.forgot-passsword {
+        margin-left: 50px !important;
+    }
+
+    span.social-start {
+        margin-left: 96% !important;
+    }
+
+    .sponsors-section a {
+        font-size: 15px !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-left: -50px !important;
+    }
+}
+
+.quartz {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 126px;
+    left: 43px;
+}
+
+.disruptafrica {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 127px;
+    left: 316px;
+}
+
+.techcabal {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 195px;
+    left: 248px;
+}
+
+.techpoint {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 332px;
+    left: 111px;
+}
+
+.businessday {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 400px;
+    left: 43px;
+}
+
+.innovationvillage {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 398px;
+    left: 315px;
+}
+
+.youtube {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 263px;
+    left: 180px;
+}
+
+.soundcloud {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 330px;
+    left: 246px;
+}
+
+.ynaija {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 195px;
+    left: 112px;
+}
+
+@media (max-width: 600px) {
+    .the_team_footer {
+        margin-top: 580px;
+    }
+}
+
+@media (max-width: 450px) {
+    .quartz {
+        left: 13px;
+    }
+
+    .disruptafrica {
+        left: 286px;
+    }
+
+    .techcabal {
+        left: 218px;
+    }
+
+    .techpoint {
+        left: 81px;
+    }
+
+    .businessday {
+        left: 13px;
+    }
+
+    .innovationvillage {
+        left: 285px;
+    }
+
+    .youtube {
+        left: 150px;
+    }
+
+    .soundcloud {
+        left: 216px;
+    }
+
+    .ynaija {
+        left: 82px;
+    }
+}
+
+@media (max-width: 330px) {
+    .quartz {
+        width: 50px;
+        height: 50px;
+        top: 140px;
+        left: 29px;
+    }
+
+    .disruptafrica {
+        width: 50px;
+        height: 50px;
+        top: 141px;
+        left: 225px;
+    }
+
+    .techcabal {
+        width: 50px;
+        height: 50px;
+        top: 190px;
+        left: 176px;
+    }
+
+    .techpoint {
+        width: 50px;
+        height: 50px;
+        top: 288px;
+        left: 78px;
+    }
+
+    .businessday {
+        width: 50px;
+        height: 50px;
+        top: 336px;
+        left: 29px;
+    }
+
+    .innovationvillage {
+        width: 50px;
+        height: 50px;
+        top: 337px;
+        left: 224px;
+    }
+
+    .youtube {
+        width: 50px;
+        height: 50px;
+        top: 239px;
+        left: 127px;
+    }
+
+    .soundcloud {
+        width: 50px;
+        height: 50px;
+        top: 288px;
+        left: 175px;
+    }
+
+    .ynaija {
+        width: 50px;
+        height: 50px;
+        top: 190px;
+        left: 78px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 769px) {
+
+    div#village_individual,
+    footer#village_footer_individual,
+    div#student_joinus,
+    footer#student_joinus_footer {
+        /* display: inline-block; */
+        float: left;
+    }
+
+    div#village_organization,
+    footer#village_footer_organization,
+    div#sponsor_joinus,
+    footer#sponsor_joinus_footer {
+        margin-left: 107px;
+    }
+}
+
+@media (max-width: 601px) {
+
+    div#village_individual,
+    footer#village_footer_individual,
+    div#student_joinus,
+    footer#student_joinus_footer {
+        /* display: inline-block; */
+        margin-left: 230px;
+        margin-bottom: 45px;
+        float: left;
+    }
+
+    div#village_organization,
+    footer#village_footer_organization,
+    div#sponsor_joinus,
+    footer#sponsor_joinus_footer {
+        margin-left: 107px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    div#village_individual,
+    footer#village_footer_individual,
+    div#student_joinus,
+    footer#student_joinus_footer {
+        margin-left: 111px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    div#village_organization,
+    footer#village_footer_organization,
+    div#sponsor_joinus,
+    footer#sponsor_joinus_footer {
+        margin-left: 140px;
+    }
+
+    div#village_individual,
+    footer#village_footer_individual,
+    div#student_joinus,
+    footer#student_joinus_footer {
+        margin-left: 140px;
+    }
+}
+
+
+
+
+
+/* NAVBAR  */
+a.navbar-brand {
+    margin-left: 45px;
+}
+
+.bg-light {
+    background-color: #f4F4F4 !important;
+    opacity: 0.9;
+}
+
+form.form-inline.navbar-form {
+    margin-left: 70px;
+}
+
+.navbar-form input.form-control {
+    border-left: none !important;
+    background: white;
+    border-radius: 0% 23px 23px 0%;
+}
+
+.navbar-form span#basic-addon1 {
+    background: white;
+    border-radius: 50% 0% 0 50%;
+}
+
+a.nav-link.joinus {
+    background-color: #8DB859;
+    color: #fff !important;
+    box-shadow: 0px 3px 2px #7777A5;
+    width: 85px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+ul.navbar-nav.navbar-right {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+hr.vertical {
+    border: 2px solid white;
+    width: 0px;
+    height: 100%;
+    margin-top: 0px;
+}
+
+/* NAVBAR ENDS */
+
+
+/* CAROUSEL */
+.carousel-caption {
+    position: absolute;
+    right: 13%;
+    bottom: 0px;
+    left: 13%;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-caption h1 {
+    font-size: 54px !important;
+    text-align: left;
+}
+
+.carousel-caption div {
+    margin-top: 185px;
+}
+
+/* CAROUSEL ENDS */
+
+/* SPONSORS */
+.row.sponsors-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.sponsors-header span {
+    border-bottom: 3px solid #0C5061;
+}
+
+h2.sponsors-header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center !important;
+}
+
+.sponsors-section h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.sponsors-section p {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.sponsors-section button {
+    width: 218px;
+    height: 56px;
+    color: white;
+    background: #85aa54;
+    border: none;
+    border-radius: 5px;
+    /* text-align: ; */
+    margin-left: -52px;
+    margin-right: 78px;
+}
+
+.sponsors-section a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #87ac56 !important;
+}
+
+/* SPONSORS END */
+
+/* STUDENTS */
+.row.students-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.students-header span {
+    border-bottom: 3px solid #0C5061;
+}
+
+h2.students-header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center !important;
+}
+
+.students-section h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.students-section p {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.students-section button {
+    width: 218px;
+    height: 56px;
+    color: white;
+    background: #85aa54;
+    border: none;
+    border-radius: 5px;
+    /* text-align: ; */
+    margin-left: -218px;
+}
+
+.students-section button a {
+    color: #FFFFFF;
+}
+
+img.img-responsive.student-image {
+    width: 100%;
+}
+
+/* STUDENTS END */
+
+/* TRENDS */
+.row.trends-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+h3.trends-header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center !important;
+}
+
+.trends-content {
+    text-align: left;
+}
+
+.trends-content h4 {
+    font-size: 16px;
+}
+
+.trends-content p {
+    font-size: 14px;
+}
+
+.trends-content footer span {
+    font-size: 12px;
+    color: #99bf6a;
+}
+
+.container.trends-content {
+    margin-bottom: 30px;
+}
+
+.trends-section button {
+    width: 264px;
+    height: 56px;
+    color: #99bf6a;
+    background: white;
+    border: 2px solid #99bf6a;
+    border-radius: 5px;
+}
+
+/* TRENDS END */
+
+/* ABOUT */
+.row.about-section {
+    background: #0C5061;
+    color: white;
+}
+
+.row.about-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.about-header span {
+    border-bottom: 3px solid white;
+}
+
+h2.about-header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center !important;
+    margin-top: 50px;
+}
+
+.about-section h3 {
+    font-size: 30px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.about-section div {
+    margin-top: 40px;
+}
+
+img.img-responsive.about-image {
+    margin: 0 35px;
+}
+
+.about-section button {
+    width: 264px;
+    height: 56px;
+    color: white;
+    background: transparent;
+    border: 2px solid #99bf6a;
+    border-radius: 5px;
+    margin: 50px 0;
+}
+
+.about-section button a {
+    color: #99bf6a;
+}
+
+/* ABOUT END */
+
+/* JOINASSPONSOR STARTS */
+.row.impact-section {
+    margin-top: 70px;
+    text-align: center;
+    text-align: center;
+}
+
+.impact-header span {
+    border-bottom: 3px solid #0C5061;
+}
+
+h2.impact-header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center !important;
+}
+
+.col-lg-6.col-md-6.col-sm-12.impact-content {
+    width: 460px;
+    height: 179px;
+    border-left: 7px solid #0c5061;
+    border: 1px solid #e4e4e4;
+    border-left: 10px solid #0c5061;
+    margin: 0 40px;
+    box-shadow: 1px 28px 8px -6px grey;
+    background: #FFFFFF
+}
+
+/* JOINASSPONSOR ENDS */
+
+/* GET STARTED */
+.row.get-started-section {
+    margin-top: 70px;
+    text-align: center;
+    text-align: center;
+}
+
+.get-started-header span {
+    border-bottom: 3px solid #0C5061;
+}
+
+h2.get-started-header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center !important;
+}
+
+.get-started-section button {
+    width: 264px;
+    height: 56px;
+    color: white;
+    background: #85aa54;
+    border: 2px solid #99bf6a;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+/* GET STARTED ENDS */
+#
+
+/* USER SECTION */
+.row.user-section {
+    margin-top: 120px;
+}
+
+h2.user-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.col-lg-4.col-md-4.col-sm-12.user-content {
+    padding: 20px;
+}
+
+.user-content h3 {
+    font-size: 18px;
+}
+
+.user-content p {
+    font-size: 14px;
+
+}
+
+.user-content .cta {
+    width: 362px;
+    height: 82px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px #EDEDEE;
+    border-radius: 3px;
+}
+
+.user-content .subscribe {
+    width: 362px;
+    height: 177px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px #EDEDEE;
+    border-radius: 3px;
+
+}
+
+
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 0.7rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .65rem;
+}
+
+.user-section span {
+    color: #8DB859;
+}
+
+.user-section h4 {
+    font-size: 16px;
+}
+
+.user-content footer {
+    font-size: 12px;
+    color: #4A90E2;
+}
+
+img.img-responsive.managecampaign {
+    margin-left: 105px;
+}
+
+img.img-responsive.sponsorstudent {
+    margin-left: 131px;
+    width: 53px;
+    height: 41px;
+}
+
+img.img-responsive.skillsfund {
+    width: 46.52px;
+    height: 38.65px;
+    margin-left: 120px;
+}
+
+img.img-responsive.Quickstaff {
+    width: 46px;
+    margin-left: 156px;
+}
+
+.user-content div {
+    float: left;
+    margin-bottom: 51px;
+}
+
+.col-lg-4.col-md-4.col-sm-12.user-content1 {
+    margin-top: 30px;
+}
+
+/* USER SECTION ENDS */
+
+/* CAMPAIGN STATISTICS SECTION */
+h3.statistics-heading {
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.col-lg-8.col-md-8.col-sm-12.statistics-rule {
+    /* margin-right: 0px; */
+    padding-right: 100px;
+}
+
+/* CAMPAIGN STATISTICS SECTION ENDS */
+
+/* FUNDRAISER SECTION */
+.row.fund-raiser-section {
+    margin-top: 50px;
+}
+
+h4.fundraiser-header {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #A9ACAF;
+}
+
+img.img-responsive.campaignperson {
+    width: 100%;
+}
+
+.campaign-panel h4 {
+    font-size: 16px;
+}
+
+.campaign-panel p {
+    font-size: 12px;
+}
+
+.campaign-panel span {
+    font-size: 12px;
+    color: #4A90E2;
+}
+
+span.first-panel-span {
+    color: #B2B8BF;
+    margin-right: 15px;
+}
+
+.fund-raiser-section button {
+    width: 195px;
+    height: 40px;
+    color: #8DB859;
+    background: white;
+    border: 1px solid #8DB859;
+    border-radius: 4px;
+    margin: 65px 40%;
+}
+
+/* FUNDRAISER SECTION ENDS */
+
+/* IMPACT SECTION */
+.page {
+    height: 99vh;
+}
+
+ul.navbar-nav.navbar-right span {
+    color: #8DB859;
+}
+
+img.img-responsive.leaders-image {
+    width: 100%;
+}
+
+.option-2 .panel-body {
+    text-align: left;
+}
+
+.impact-panel a {
+    font-size: 14px;
+    color: black;
+    /* padding: 21px 0; */
+}
+
+.impact-panel h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+h2.impact-page-header {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+p.impact-para {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.impact-forms input#inputEmail {
+    margin-left: 16px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.impact-forms input#phone {
+    width: 214%;
+    /* margin-left: 13px; */
+    height: 37px;
+    border: 1px solid #ded6d6 !important;
+    border-radius: 5px;
+}
+
+.row.join-us-footer {
+    margin-top: 86px;
+}
+
+.option-1 footer,
+.option-2 footer .intl-tel-input .selected-flag {
+    padding: 9px 15px 9px 0px !important;
+    margin-left: 10px;
+}
+
+form.form-inline.impact-password {
+    margin-top: 18px;
+}
+
+/* .impact-forms button.btn.btn-primary.mb-2 {
+    width: 100%;
+    padding: 9px 0;
+    margin: 10px 77px 10px 14px;
+} */
+/* IMPACT SECTION ENDS */
+
+/* JOIN US */
+.option-1 p,
+.option-2 p {
+    margin-left: 50px;
+    margin-top: -14px;
+    font-size: 14px;
+}
+
+/* OVERIDING  PATHS */
+.iti-flag {
+    background-image: url("../img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .iti-flag {
+        background-image: url("../img/flags@2x.png");
+    }
+}
+
+.row.joinus-page {
+    margin-top: 60px;
+}
+
+h2.joinus-header {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.option-1 footer,
+.option-2 footer {
+    font-size: 13px;
+    color: green;
+    margin-left: 119px;
+}
+
+#footer1,
+#footer2,
+#footer3,
+#footer4,
+#footer5,
+#footer6 {
+    font-size: 13px;
+    color: green;
+}
+
+.row.join-us-footer {
+    margin-top: 380px;
+}
+
+/* JOIN US ENDS */
+
+/* SCHOLARSHIP SECTION */
+.col-lg-6.col-md-6.col-sm-12.scholarship-section-2 .panel-default {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.col-lg-6.col-md-6.col-sm-12.scholarship-section-2 h3 {
+    font-size: 20px;
+}
+
+.col-lg-6.col-md-6.col-sm-12.scholarship-section-2 p {
+    font-size: 14px;
+}
+
+h2.scholarship-header {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+
+p.scholarship-para {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.scholarship-section-1 .form-group.row {
+    margin-left: 2px;
+    width: 105%;
+    margin-top: 20px;
+}
+
+.scholarship-section-1 input#phone {
+    width: 172%;
+    margin-left: 16px;
+    height: 38px;
+    border-radius: 0px;
+}
+
+form.scholarship-tel {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.scholarship-section-1 button.btn.btn-primary.mb-2 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 75px;
+}
+
+.row.scholarship-footer {
+    margin-top: 142px;
+}
+
+/* SCHOLARSHIP SECTION ENDS */
+
+/* THE TEAM */
+.theteam-jumbotron {
+    background-image: url(../img/teamBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+.theteam-jumbotron h2 {
+    color: white;
+    margin: 121px 0px 0px 36%;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.row.theteam-row {
+    margin-top: 50px;
+}
+
+.theteam-row h3,
+.theteam-advisor h3,
+.media-features h3 {
+    color: #0C5061;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.theteam-row h3 span,
+.theteam-advisor h3 span,
+.media-features h3 span {
+    border-bottom: 3px solid #0C5061;
+}
+
+.theteam-row h4 {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.theteam-row p {
+    font-size: 14px;
+}
+
+.bolalawal,
+.wasiu {
+    border-top: 5px solid #3D57AA;
+    margin-top: 40px;
+    width: 130px;
+    text-align: center;
+}
+
+.maxwell,
+.ayo {
+    margin-top: 40px;
+    border-top: 5px solid #E8724D;
+    width: 130px;
+    text-align: center;
+}
+
+.damilola,
+.idris {
+    margin-top: 40px;
+    border-top: 5px solid #FD5D65;
+    width: 130px;
+    text-align: center;
+}
+
+.azeez {
+    margin-top: 22px;
+    border-top: 5px solid #A13DAB;
+    width: 130px;
+    text-align: center;
+}
+
+.moe {
+    margin-top: 40px;
+    border-top: 5px solid #A13DAB;
+    width: 130px;
+    text-align: center;
+}
+
+.tayo,
+.adeolu {
+    border-top: 5px solid #1149FF;
+    margin-top: 40px;
+    width: 130px;
+    text-align: center;
+}
+
+.tolu,
+.lola {
+    border-top: 5px solid #EDF03F;
+    margin-top: 40px;
+    width: 130px;
+    text-align: center;
+}
+
+.theteam-advisor h4 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.row.theteam-advisor,
+.media-features {
+    margin-top: 50px;
+}
+
+.media-features {
+    margin-bottom: 100px;
+}
+
+.media-features h4 {
+    margin-top: 90px;
+    font-size: 16px;
+}
+
+.media-features p {
+    font-size: 38px;
+    padding-right: 30px;
+}
+
+.media-features a {
+    font-size: 18px;
+    color: #8DB859;
+}
+
+/* THE TEAM ENDS */
+
+/* LOGIN STARTS */
+span.joinus-login {
+    color: #8DB859;
+    font-size: 18px;
+}
+
+.login-nav {
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.row.login-form {
+    margin-top: 50px;
+}
+
+.login-form-inner h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+p.facebook-login {
+    width: 80%;
+    border: 1px solid #1D4294;
+    text-align: center;
+    padding: 10px 0px;
+    background: #1D4294;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
+
+p.twitter-login {
+    width: 80%;
+    border: 1px solid #D84830;
+    text-align: center;
+    padding: 10px 0px;
+    background: #D84830;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
+
+.login-submit {
+    width: 80%;
+    border: 1px solid #8DB859;
+    text-align: center;
+    padding: 10px 0px;
+    background: #8DB859;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
+
+.facebook-login a,
+.twitter-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+p.login-or {
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-form-inner label {
+    font-size: 18px;
+}
+
+.login-form-inner .form-group {
+    width: 80%;
+    margin: 10px 40px;
+}
+
+span.forgot-passsword {
+    margin-left: 160px;
+    color: #8DB859;
+    font-size: 14px;
+}
+
+.login-form-inner label.form-check-label {
+    font-size: 14px;
+}
+
+.row.login-footer {
+    position: absolute;
+    bottom: 0px;
+    /* padding-left: 50px; */
+}
+
+.login-footer p {
+    margin-left: 51px;
+}
+
+/* LOGIN SECTION ENDS */
+
+
+/* BLOG */
+.top-square-content {
+    width: 350px;
+    position: absolute;
+    bottom: 6px;
+    background: #fff;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+
+.top-square-content h4 {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #4A90E2;
+}
+
+.top-square-content h3 {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.top-square-content p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.top-square-content footer {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.row.blog-header {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    /* margin-left: 77px; */
+}
+
+.row.jumbotron-head {
+    margin-bottom: 80px;
+}
+
+.blog-content1 h4,
+.blog-content2 h4 {
+    font-size: 12px;
+    color: #4A90E2;
+    margin-left: 10px;
+}
+
+.blog-content1 h3,
+.blog-content2 h3 {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.blog-content1 p,
+.blog-content2 p {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.blog-content1 span,
+.blog-content2 span {
+    font-size: 14px;
+    color: #6A7890;
+}
+
+.blog-content2 {
+    margin-top: 40px;
+}
+
+.blog-showmore button {
+    width: 120px;
+    padding: 8px 5px;
+    margin: 40px 45%;
+    background: white;
+    border: 1px solid grey;
+}
+
+/* BLOG SECTION ENDS */
+
+/* IMPACT PAGE STARTS */
+.impact-page-jumbotron {
+    background-image: url(../img/empowering-students.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.impact-page-jumbotron h2 {
+    font-size: 56px;
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.impact-page-jumbotron p {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.inpact-page-content h4 {
+    font-size: 24px;
+    margin-left: 18px;
+}
+
+.inpact-page-content p {
+    font-size: 16px;
+    color: #38435B;
+    margin-left: 18px;
+}
+
+form.form-group.row.flag-phone {
+    margin-left: 2px;
+}
+
+.inpact-page-content p {
+    font-size: 16px;
+    color: #38435B;
+    margin-left: 18px;
+}
+
+.inpact-page-content p {
+    font-size: 16px;
+    color: #38435B;
+    margin-left: 18px;
+}
+
+p.first-para {
+    font-size: 18px;
+    color: #8DB859;
+}
+
+/* IMPACT PAGE ENDS */
+
+
+/* SEARCH RESULT PAGE STARTS */
+.row.searchresult-header {
+    margin-top: 130px;
+}
+
+/* SEARCH RESULT PAGE ENDS */
+
+
+/* SECONDARY SCHOOL BASICS */
+.row.searchresult-header h2 {
+    font-size: 25px;
+}
+
+.row.basics-form h3 {
+    font-size: 24px;
+}
+
+.row.basics-form {
+    margin-top: 50px;
+}
+
+.row.basics-form p {
+    font-size: 14px;
+}
+
+.upload-pics {
+    font-size: 12px;
+    /* color: green; */
+    border: 1px solid #ababaf;
+    width: 145px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.basics-form a {
+    color: #8DB859;
+}
+
+.basics-form label {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.basics-form select#inlineFormCustomSelect {
+    margin-bottom: 25px;
+    border: 1px solid #aba7a7;
+    border-radius: 0px;
+}
+
+.basics-form input {
+    margin-bottom: 25px;
+    border: 1px solid #aba7a7;
+    border-radius: 0px;
+}
+
+label.custom-file-label {
+    margin-bottom: 25px;
+    border-radius: 0px;
+    border: 1px solid #aba7a7;
+}
+
+.form-group.basics-address {
+    margin-top: 12px;
+}
+
+span.back-button {
+    width: 166px;
+    height: 48px;
+    border: 1px solid #8DB859;
+    padding: 10px 0px;
+}
+
+.back-next {
+    width: 100%;
+    margin-top: 65px;
+}
+
+span.next-button {
+    /* float: right; */
+    width: 166px;
+    height: 48px;
+    border: 1px solid #8DB859;
+    text-align: center;
+    /* margin-left: 330px; */
+    padding: 10px 0px;
+    background: #8DB859;
+}
+
+.basics-form textarea {
+    margin-bottom: 25px;
+    border: 1px solid #aba7a7;
+    border-radius: 0px;
+}
+
+span.back-button a {
+    padding: 10px 30px;
+}
+
+span.next-button a {
+    padding: 10px 30px;
+    color: white;
+}
+
+span.back-button:hover {
+    background: #8DB859;
+}
+
+span.next-button:hover {
+    background: white;
+}
+
+span.back-button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+span.next-button a:hover {
+    color: #8DB859;
+    text-decoration: none;
+}
+
+.col-lg-6.col-md-6.col-sm-12.basic-side-bar {
+    padding-left: 95px;
+}
+
+.basic-side-bar h3 {
+    margin-top: 30px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+ul.no-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li.marklist {
+    list-style-image: url(../img/ulmarklist.png);
+    height: 41px;
+    padding-left: 10px;
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+.container-fluid.basic-get-app {
+    margin-top: 40px;
+}
+
+span.basic-googleplay {
+    margin-right: 30px;
+}
+
+/* SECONDARY SCHOOL BASICS END */
+
+
+
+/* SECONDARY SCHOOL REVIEW INFO */
+.row.review-info-form {
+    margin-top: 30px;
+}
+
+.image-review {
+    border: 1px solid #bfb7b7;
+    width: 160px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+a.image-review-click {
+    font-size: 12px;
+    color: #8DB859;
+}
+
+td {
+    font-size: 14px;
+}
+
+td a {
+    color: #8DB859 !important;
+}
+
+span.back-button a {
+    padding: 10px 30px;
+}
+
+label span {
+    font-size: 12px;
+}
+
+/* SECONDARY SCHOOL REVIEW INFO ENDS */
+
+
+
+/* STUDENT DASHBOARD */
+button.campaigns-form-button {
+    width: 322px;
+    background: #8DB859;
+    border-radius: 3px;
+    border: 1px solid #8DB859;
+    color: white;
+    padding: 6px 0px;
+}
+
+button.campaigns-form-button:hover {
+    width: 322px;
+    padding: 6px 0px;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #8DB859;
+    color: #8DB859;
+}
+
+button.see-more-campaign {
+    margin-top: 60px;
+}
+
+/* STUDENT DASHBOARD END */
+
+
+
+/* VILLAGE  */
+.row.village-content {
+    margin-top: 160px;
+}
+
+.checkbox-option.village-checkbox-option {
+    margin-left: 0px;
+}
+
+.village-checkbox-option p {
+    margin-left: 55px;
+    margin-top: -17px;
+}
+
+/* VILLAGE ENDS */
+
+
+/* HOME PAGE MEDIA QUERY */
+@media (max-width: 1050px) {
+    .carousel-caption div {
+        margin-top: 65px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: .5rem;
+    }
+}
+
+@media (max-width: 908px) {
+    form.form-inline.navbar-form {
+        margin-left: 0px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 980px) {
+    form.form-inline.navbar-form {
+        margin-left: -83px;
+        margin-right: 115px;
+    }
+
+    img.img-responsive.sponsor-image {
+        width: 100%;
+    }
+
+    .sponsors-section button {
+        width: 142px;
+        height: 45px;
+        color: white;
+        background: #85aa54;
+        border: none;
+        border-radius: 5px;
+        /* text-align: ; */
+        margin-left: -52px;
+        margin-right: 0px;
+    }
+
+    .students-section button {
+        width: 182px;
+        height: 45px;
+        margin-left: 0px;
+    }
+
+    .footer-section button.btn.btn-primary.mb-2 {
+        width: 156px;
+        height: 48px;
+        margin-left: 47px;
+        background: #99bf6a;
+        border: 1px solid #99bf6a;
+    }
+
+    .carousel-caption {
+        bottom: 53px;
+    }
+
+    .carousel-caption div {
+        margin-top: 40px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 34px !important;
+    }
+
+    .sponsors-section p,
+    .students-section p {
+        font-size: 16px;
+    }
+
+    .sponsors-section h2,
+    .students-section h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 769px) {
+    nav.navbar.navbar-expand-lg.fixed-top.navbar-light.bg-light {
+        width: 864px !important;
+    }
+
+    img.d-block.w-100.img-responsive {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .carousel-item {
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    img.img-responsive.sponsor-image {
+        margin-top: 40px;
+    }
+
+    img.img-responsive.student-image {
+        margin-bottom: 40px;
+    }
+
+    .col-lg-6.col-md-6.col-sm-12.impact-content {
+        margin: 15px 40px;
+        box-shadow: 1px 10px 8px -6px grey;
+    }
+
+    .faq-section button {
+        margin: 35px 22%;
+    }
+
+    .col-lg-2.col-md-2.col-sm-12.footer-links {
+        margin-left: 54px;
+    }
+
+    .col-lg-3.col-md-3.col-sm-12.footer-socials {
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 690px) {
+    form.form-inline.navbar-form {
+        margin-left: -37px;
+        margin-right: 188px;
+    }
+
+    .col-lg-6.col-md-6.col-sm-12.impact-content {
+        height: 136px;
+    }
+
+    a.navbar-brand {
+        margin-left: 0px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px !important;
+    }
+
+    .carousel-caption div {
+        margin-bottom: -30px;
+    }
+
+}
+
+@media (max-width: 570px) {
+    form.form-inline.navbar-form {
+        margin-left: 10px;
+        margin-right: 302px;
+    }
+
+    img.d-block.w-100.img-responsive {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .carousel-item {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 500px) {
+    form.form-inline.navbar-form {
+        margin-left: 10px;
+        margin-right: 361px;
+    }
+
+    .col-lg-6.col-md-6.col-sm-12.impact-content {
+        height: 136px;
+        width: 83%;
+    }
+
+    .impact-content p {
+        font-size: 14px;
+    }
+
+    .sponsors-section a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #87ac56 !important;
+    }
+
+    img.img-responsive.footer-logo {
+        width: 200px;
+        height: 74px;
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+
+    .col-lg-2.col-md-2.col-sm-12.footer-links {
+        margin-left: 28px;
+    }
+
+    .footer-section button.btn.btn-primary.mb-2 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 436px) {
+    .input-group.navbar-input {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-left: 114px;
+    }
+
+    img.img-responsive.gec,
+    img.img-responsive.wsa {
+        width: 72px;
+    }
+
+    img.img-responsive.cnbc {
+        width: 26px;
+    }
+
+    img.img-responsive.nis {
+        width: 47px;
+    }
+
+    img.img-responsive.sah {
+        width: 41px;
+    }
+
+    .carousel-caption {
+        width: 282px;
+    }
+}
+
+@media (max-width: 412px) {
+    .carousel-caption {
+        padding-bottom: 0px !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 27px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-caption h1 {
+        font-size: 24px !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-left: 15px;
+    }
+
+    .sponsors-section button {
+        margin-left: -9px;
+    }
+
+    .faq-section button {
+        margin: 35px 15%;
+    }
+
+    .footer-section input#inputEmail {
+        width: 303px;
+    }
+
+    .carousel-caption {
+        bottom: 23px;
+    }
+}
+
+
+/* IMPACT PAGE MEDIA QUERY */
+@media (max-width: 1202px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 336px;
+    }
+
+    .impact-forms input#phone {
+        width: 138%;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 95%;
+    }
+
+    .row.join-us-footer {
+        margin-top: 104px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 293px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 291px;
+    }
+
+    .impact-forms input#phone {
+        width: 291px;
+    }
+
+    .impact-forms button.btn.btn-primary.mb-2 {
+        margin: 10px 5px 10px 14px;
+    }
+
+    span.social-start {
+        margin-left: 71%;
+    }
+
+    .row.join-us-footer {
+        margin-top: 69px;
+    }
+}
+
+@media (max-width: 908px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 257px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 136%;
+    }
+
+    .impact-forms input#phone {
+        width: 112%;
+    }
+
+    .impact-forms button.btn.btn-primary.mb-2 {
+        margin: 10px 5px 10px 14px;
+    }
+
+    span.social-start {
+        margin-left: 71%;
+    }
+
+    .row.join-us-footer {
+        margin-top: 69px;
+    }
+
+    form.form-inline.impact-submit {
+        padding-left: 3px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .col-lg-6.col-md-6.col-sm-12.option-1.impact-forms {
+        padding: 0 57px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 374px;
+    }
+
+    .campaign-modal-image img {
+        width: 50%;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 375px;
+    }
+
+    .impact-forms input#phone {
+        width: 376px;
+    }
+
+    .carousel-caption p {
+        font-size: 13px;
+    }
+
+    .carousel-caption {
+        bottom: 85px;
+    }
+
+    .carousel-caption div {
+        margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 690px) {
+    h2.impact-page-header {
+        font-size: 29px;
+    }
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 376px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 116%;
+        margin-top: 0px;
+    }
+
+    .impact-forms input#phone {
+        width: 153%;
+    }
+
+    img.img-responsive.facebook-black {
+        margin-right: 10px;
+        margin-left: -190px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 435px;
+        margin-left: 17px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 436px;
+        margin-top: 0px;
+    }
+
+    .impact-forms input#phone {
+        width: 436px;
+    }
+
+    .col-lg-7.col-md-7.col-sm-7.col-xs-7.social-black {
+        margin-bottom: 25px;
+    }
+
+    .col-lg-7.col-md-7.col-sm-7.col-xs-7.social-black {
+        margin-bottom: 25px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 364px;
+        margin-left: 17px;
+    }
+
+    .impact-forms input#phone {
+        width: 365px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 365px;
+        margin-top: 0px;
+    }
+
+    .impact-forms button.btn.btn-primary.mb-2 {
+        margin: 10px 24px 10px 14px;
+    }
+
+    .impact-forms input#phone {
+        margin-left: 29px;
+    }
+
+    .intl-tel-input .selected-flag {
+        margin-left: 27px;
+    }
+
+    .second-phone input#phone {
+        margin-left: 16px !important;
+    }
+
+    .second-phone .flag-container {
+        margin-left: -14px;
+    }
+
+    .row.join-us-footer {
+        margin-top: 156px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 300px;
+        margin-left: 17px;
+    }
+
+    .impact-forms input#phone {
+        width: 301px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 301px;
+        margin-top: 0px;
+    }
+
+    .col-lg-7.col-md-7.col-sm-7.col-xs-7.social-black {
+        margin-bottom: 25px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 381px) {
+
+    .impact-forms input#inputFirstName,
+    .impact-forms input#inputLastName,
+    .impact-forms input#inputPassword1,
+    .impact-forms input#inputPassword2 {
+        width: 224px;
+        margin-left: 17px;
+    }
+
+    .impact-forms input#inputEmail {
+        width: 225px;
+        margin-top: 0px;
+    }
+
+    .impact-forms input#phone {
+        width: 229px;
+    }
+
+    .col-lg-7.col-md-7.col-sm-7.col-xs-7.social-black {
+        margin-bottom: 25px;
+        margin-left: 61px;
+    }
+}
+
+
+/* JOIN US MEDIA QUERY */
+@media (max-width: 769px) {
+    .col-lg-6.col-md-6.col-sm-6.option-1 {
+        margin-left: -123px;
+    }
+
+    .row.join-us-footer {
+        margin-top: 388px;
+    }
+}
+
+@media (max-width: 466px) {
+
+    .col-lg-6.col-md-6.col-sm-6.option-1,
+    .col-lg-6.col-md-6.col-sm-6.option-2 {
+        margin-left: -60px;
+    }
+
+    .row.join-us-footer {
+        margin-top: 156px;
+    }
+}
+
+@media (max-width: 381px) {
+
+    .col-lg-6.col-md-6.col-sm-6.option-1,
+    .col-lg-6.col-md-6.col-sm-6.option-2 {
+        margin-left: -100px;
+    }
+
+    .row.join-us-footer {
+        margin-top: 156px;
+    }
+}
+
+
+/* BLOG MEDIA QUERY */
+@media (max-width: 992px) {
+    .top-square-content {
+        bottom: 93px;
+    }
+
+    .footer-section button.btn.btn-primary.mb-2 {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 778px) {
+    .top-square-content {
+        bottom: 177px;
+    }
+
+    .top-square-content {
+        /* bottom: 177px; */
+        top: 269px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 576px) {
+    .top-square-content {
+        bottom: 147px;
+    }
+}
+
+@media (max-width: 520px) {
+    .top-square-content {
+        bottom: 172px;
+    }
+}
+
+@media (max-width: 440px) {
+    .top-square-content {
+        bottom: 209px;
+    }
+}
+
+@media (max-width: 381px) {
+    .top-square-content {
+        bottom: 237px;
+        height: 176px;
+    }
+
+    /* .top-square-content {
+        bottom: 172px;
+        display: none;
+    } */
+}
+
+
+/* THE TEAM MEDIA QUERY */
+@media (max-width: 765px) {
+    .col-lg-2.col-md-4.col-sm-12.theteam-content {
+        display: flex;
+        /* align-content: baseline; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .theteam-jumbotron h2 {
+        margin: 121px 0px 0px 21%;
+    }
+}
+
+@media (max-width: 521px) {
+    .theteam-jumbotron h2 {
+        margin: 165px 0px 0px 21%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 472px) {
+    .media-features h4 {
+        font-size: 14px;
+    }
+
+    .media-features p {
+        font-size: 30px;
+    }
+}
+
+
+/* LOGIN PAGE MEDIA QUERY */
+@media (max-width: 1013px) {
+    .row.login-footer {
+        position: relative;
+        /* bottom: 0px; */
+        /* padding-left: 50px; */
+        margin-top: 100px;
+    }
+}
+
+/* SCHOOL AND STUDENT PAGES MEDIA QUERY */
+@media (max-width: 1024px) {
+    span.next-button {
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 769px) {
+    span.next-button {
+        margin-left: 120px;
+    }
+
+    img.playstore-logo {
+        margin-bottom: 20px;
+        width: 146px;
+    }
+
+    .media-features {
+        margin-bottom: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    .basic-side-bar {
+        margin-top: 90px;
+    }
+
+    .col-lg-6.col-md-6.col-sm-12.basic-side-bar {
+        padding-left: 5px;
+    }
+
+    .col-lg-8.col-md-8.col-sm-12.statistics-rule {
+        display: none;
+    }
+
+    button.see-more-campaign {
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 321px) {
+    span.next-button {
+        margin-left: 95px;
+    }
+}
+
+@media (max-width: 400px) {
+    button.see-more-campaign {
+        margin-left: 44px;
+    }
+}

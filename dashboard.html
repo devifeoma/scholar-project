@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css">
+        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/intlTelInput.css">
+        <link rel="stylesheet" href="assets/css/bootscrap.css">
+        <title>ScholarX</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <a class="navbar-brand" href="assets">
+                    <img src="assets/img/ScholarX.png" alt="logo" class="img-responsive"
+                        style="height: 30px; width: 96px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle
+                    navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <form class="form-inline navbar-form">
+                    <div class="input-group navbar-input">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><img
+                                    src="assets/img/search.png" alt="search"
+                                    class="img-responsive"></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search for
+                            scholarship..." aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </form> -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav navbar-right">
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Students
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item"
+                                    href="assets/student/secondary/fundrequest/create">Create
+                                    Fund Request</a>
+                                <a class="dropdown-item" href="#">Find Scholarship</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal"
+                                    data-target=".gethelp-Modal">Get
+                                    Help</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sponsor
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="assets/village">Fund
+                                    Education</a>
+                                <a class="dropdown-item" href="assets/join/sponsor">Start
+                                    Scholarship Fund</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal"
+                                    data-target=".gethelp-Modal">Get
+                                    Help</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <!-- <img src="assets/img/elipsis.png" alt="menu icons"> -->
+                                More
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item disabled" href="#">About Us</a>
+                                <a class="dropdown-item" href="assets/team">Team</a>
+                                <a class="dropdown-item" href="assets/team">Advisers</a>
+                                <a class="dropdown-item" href="assets/team">Media
+                                    Features</a>
+                                <a class="dropdown-item" href="assets/impact">Impact</a>
+                                <a class="dropdown-item" href="assets/blog">Blog</a>
+                                <a class="dropdown-item" target="_blank"
+                                    href="https://skillsfund.herokuapp.com">SkillsFund
+                                    <span class="skillsfund-new">(New)</span></a>
+                                <a class="dropdown-item disabled" href="#">Download App</a>
+                                <a class="dropdown-item"
+                                    href="https://itunes.apple.com/us/app/scholarx/id1135916663?ls=1&amp;mt=8">IOS</a>
+                                <a class="dropdown-item"
+                                    href="https://play.google.com/store/apps/details?id=com.scholarx.mobile2">Android</a>
+                                <a class="dropdown-item" href="https://wa.me/2349082463268"
+                                    target="_blank"> <span> Chat
+                                        with us on
+                                    </span> <br> 09082463268</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <hr class="vertical mr-2">
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="assets/login">Log In</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <img src="assets/img/azeez.png" class="img-circle" style="height: 30px;
+                                width: 30px; padding-top: 4px;">
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <!-- <img src="assets/img/elipsis.png" alt="menu icons"> -->
+                                Ronke Lancester
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item disabled" href="#">About Us</a>
+                                <a class="dropdown-item" href="assets/team">Team</a>
+                                <a class="dropdown-item" href="assets/team">Advisers</a>
+                                <a class="dropdown-item" href="assets/team">Media
+                                    Features</a>
+                                <a class="dropdown-item" href="assets/impact">Impact</a>
+                                <a class="dropdown-item" href="assets/blog">Blog</a>
+                                <a class="dropdown-item" target="_blank"
+                                    href="https://skillsfund.herokuapp.com">SkillsFund
+                                    <span class="skillsfund-new">(New)</span></a>
+                                <a class="dropdown-item disabled" href="#">Download App</a>
+                                <a class="dropdown-item"
+                                    href="https://itunes.apple.com/us/app/scholarx/id1135916663?ls=1&amp;mt=8">IOS</a>
+                                <a class="dropdown-item"
+                                    href="https://play.google.com/store/apps/details?id=com.scholarx.mobile2">Android</a>
+                                <a class="dropdown-item" href="https://wa.me/2349082463268"
+                                    target="_blank"> <span> Chat
+                                        with us on
+                                    </span> <br> 09082463268</a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container dashboard">
+            <div><h5 class="welcome-text">Hi Ronke, Welcome.</h5></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="first_dashboard">
+                        <h4>Ronke Lancester</h4>
+                        <p>I'm looking to making impact in Education in Nigeria</p>
+                        <div class="progress-bar">
+                            <span class="progress-bar-fill" style="width: 20%;"></span>
+                        </div>
+                        <div>
+                            <p>Change my <span style="color: #8db859;">profile settings</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="second_dashboard">
+                        <div class="sub-div">
+                            <div class="flex d-flex"><p class="first-campaign-text">Manage campaigns</p></div>
+                            <div>
+                                <img src="assets/img/managecampaign.png"
+                                    class="second-campaign-text">
+                            </div>
+                        </div>
+                        <div class="sub-div">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="second_dashboard">
+                        <div class="sub-div">
+
+                        </div>
+                        <div class="sub-div">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div><p class="campaign-text">CURRENT CAMPAIGN STATISTICS</p><hr class="campaign-line"></div>
+            <div><p class="active-campaign">Active campaign statistics will be added here</p></div>
+            <div class="row">
+                <h5 class="recent-fund">RECENT FUNDRAISERS</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/img/trend1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fund-raising">Title of fundraising</h5>
+                            <p class="card-text sub-fund-title">This is a brief note on what this
+                                fundraising is
+                                about. Only 2 lines…</p>
+                            <div class="d-flex">
+                                <span style="color: #B2B8BF; font-size:11px;">Last donation 1day ago</span>
+                                <div><span style="color: #4A90E2;font-size:11px;">8 Donations</span></div>
+                            </div>
+                            <div class="fund-progress-bar">
+                                <span class="fund-progress-bar-fill" style="width: 40%;"></span>
+                            </div>
+                            <p class="fund-raised">N5,000 raised of N20,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/img/trend1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fund-raising">Title of fundraising</h5>
+                            <p class="card-text sub-fund-title">This is a brief note on what this
+                                fundraising is
+                                about. Only 2 lines…</p>
+                            <div class="d-flex">
+                                <span style="color: #B2B8BF; font-size:11px;">Last donation 1day ago</span>
+                                <div><span style="color: #4A90E2;font-size:11px;">8 Donations</span></div>
+                            </div>
+                            <div class="fund-progress-bar">
+                                <span class="fund-progress-bar-fill" style="width: 40%;"></span>
+                            </div>
+                            <p class="fund-raised">N5,000 raised of N20,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/img/trend1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fund-raising">Title of fundraising</h5>
+                            <p class="card-text sub-fund-title">This is a brief note on what this
+                                fundraising is
+                                about. Only 2 lines…</p>
+                            <div class="d-flex">
+                                <span style="color: #B2B8BF; font-size:13px;">Last donation 1day ago</span>
+                                <div><span style="color: #4A90E2;font-size:11px;">8 Donations</span></div>
+                            </div>
+                            <div class="fund-progress-bar">
+                                <span class="fund-progress-bar-fill" style="width: 40%;"></span>
+                            </div>
+                            <p class="fund-raised">N5,000 raised of N20,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/img/trend1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="fund-raising">Title of fundraising</h5>
+                            <p class="card-text sub-fund-title">This is a brief note on what this
+                                fundraising is
+                                about. Only 2 lines…</p>
+                            <div class="d-flex">
+                                <div style="color: #B2B8BF; font-size:11px;">Last donation 1day ago</div>
+                                <p style="color: #4A90E2;font-size:11px; text-align: right">8
+                                    Donations</p>
+                            </div>
+                            <div class="fund-progress-bar">
+                                <span class="fund-progress-bar-fill" style="width: 40%;"></span>
+                            </div>
+                            <p class="fund-raised">N5,000 raised of N20,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-campaign-button">
+                <button class="btn campaign-button" style="display: block; margin: 0 auto;">See
+                    more campaigns</button>
+            </div>
+
+            <div class="footer">
+
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
